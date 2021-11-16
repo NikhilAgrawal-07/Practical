@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: arial;
+}
+header{
+    height: 50px;
+    background-color: white;
+    /* margin: 8px; */
+    padding: 15px;
+}
+h2{
+    float: left;
+    margin-left: 30px;
+    margin-top: -7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    color: grey;
+    margin: 20px;
+    /* line-height: 100px; */
+}
+#get{
+    border: 2px solid skyblue;
+    background-color: skyblue;
+    color: white;
+    margin: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px 30px 30px 30px;
+}
+main{
+    height: 500px;
+    border: 2px solid white;
+    background-color: rgb(212, 223, 228);
+}
+.cont{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 450px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.hr{
+    margin-top: 5px;
+}
+.text{
+    margin-left: 430px;
+    color: grey;
+}
+.column{
+    display: inline-flex;
+}
+.first{
+    border: 2px solid white;
+    height: 220px;
+    width: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    float: left;
+    background-color: white;
+}
+.second{
+    float: right;
+    background-color: white;
+    height: 220px;
+    width: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 150px;
+    border: 2px solid white;
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    margin: -28px;
+        margin-top: 15px;
+}
+span{
+    color: grey;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.fir{
+    margin-top: -20px;
+    margin-left: 30px;
+}
+p{
+    color: grey;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+#last{
+    margin: -2px;
+}
+button{
+    margin-top: 350px;
+    margin-left: 60px;
+    background-color: blue;
+    colo
+}
